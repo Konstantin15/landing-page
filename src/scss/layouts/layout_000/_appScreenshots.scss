@@ -1,0 +1,67 @@
+.appScreenshots {
+  padding-top: 50px;
+}
+
+.slick__item {
+  width: 280px;
+  max-width: 280px;
+  height: 494px;
+}
+
+.slick-box {
+  padding: 50px;
+  max-width: 380px;
+  margin: 10px auto 110px auto;
+}
+
+.slick__item_1 {
+  background: url(#{$imagesPath}1.jpg) no-repeat;
+  background-size: cover;
+}
+
+.slick__item_2 {
+  background: url(#{$imagesPath}1-1.jpg) no-repeat;
+  background-size: cover;
+}
+
+.slick__item_3 {
+  background: url(#{$imagesPath}2.jpg) no-repeat;
+  background-size: cover;
+}
+
+.slick__item_4 {
+  background: url(#{$imagesPath}3.jpg) no-repeat;
+  background-size: cover;
+}
+
+.slick__item_5 {
+  background: url(#{$imagesPath}3-2.jpg) no-repeat;
+  background-size: cover;
+}
+
+.slick__item_6 {
+  background: url(#{$imagesPath}4-2-1.jpg) no-repeat;
+  background-size: cover;
+}
+
+.slick__item_7 {
+  background: url(#{$imagesPath}5-2.jpg) no-repeat;
+  background-size: cover;
+}
+
+.slick__item_8 {
+  background: url(#{$imagesPath}6-2.jpg) no-repeat;
+  background-size: cover;
+}
+
+.appScreenshots__titleBox {
+  text-align: center;
+
+  &_h2 {
+  color: $black;
+}
+  &_p {
+    color: $grey;
+  }
+
+}

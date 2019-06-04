@@ -1,0 +1,41 @@
+.footer-box {
+  background: #333;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 70px;
+  flex-wrap: wrap;
+}
+
+.footer-box__inf {
+  flex-basis: 300px;
+}
+
+.footer-box__inf {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.box-inf__img {
+  width: 100%;
+  height: 40px;
+}
+
+.box-inf__img_1 {
+  background: url(#{$imagesPath}map.svg) no-repeat center;
+  background-size: contain;
+}
+
+.box-inf__img_2 {
+  background: url(#{$imagesPath}phone.svg) no-repeat center;
+  background-size: contain;
+}
+
+.box-inf__img_3 {
+  background: url(#{$imagesPath}email.svg) no-repeat center;
+  background-size: contain;
+}
+
+.box-inf__img_4 {
+  background: url(#{$imagesPath}support.svg) no-repeat center;
+  background-size: contain;
+}

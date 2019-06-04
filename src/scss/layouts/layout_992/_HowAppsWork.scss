@@ -1,0 +1,47 @@
+
+  .howAppsWork__info {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+
+    .howAppsWork__col_mov {
+      transition: all 1.7s ease 0.5s;
+      left: 0;
+      opacity: 1;
+    }
+
+    .howAppsWork__col_mov-1 {
+      transition: all 1.7s ease 1.5s;
+      right: 0;
+      opacity: 1;
+    }
+
+    .howAppsWork__col_mov-2 {
+      transition: all 1.7s ease 2.7s;
+      left: 0;
+      opacity: 1;
+    }
+
+  }
+
+  .howAppsWork__col {
+    flex-basis: 0;
+    flex-grow: 1;
+
+    &_img {
+      display: inline-block;
+    }
+  }
+
+  .howAppsWork__col_img-1,
+  .howAppsWork__col_img-3{
+    position: relative;
+    left: -500px;
+    opacity: 0;
+  }
+
+  .howAppsWork__col_img-2{
+    position: relative;
+    right: -500px;
+    opacity: 0;
+  }

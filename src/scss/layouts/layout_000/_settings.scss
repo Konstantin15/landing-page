@@ -1,0 +1,23 @@
+.settings {
+  background: rgba(197, 212, 243, 0.34);
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex: 1;
+  color: black;
+}
+
+.setting__box {
+  border: 0.5px solid rgba(197, 212, 243, 0.34);
+  background: white;
+  padding: 30px;
+  margin: 10px;
+  transition: all 0.5s ease 0s;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+}
+
+
+.settings_logo {
+  max-width: 50px;
+}

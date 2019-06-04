@@ -1,0 +1,61 @@
+.howAppsWork {
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+  color: black;
+  line-height: 1.5;
+}
+
+.howAppsWork p {
+  color: grey;
+}
+
+.howAppsWork > * {
+  padding: 15px;
+}
+
+.howAppsWork__info {
+  margin-bottom: 10px;
+}
+
+.title2 {
+  margin-top: 50px;
+}
+
+.howAppsWork__info_block3 {
+  margin-bottom: 50px;
+}
+
+.title2 {
+  text-align: center;
+}
+
+.but {
+  background: #0299f1 none repeat scroll 0 0;
+  display: inline-block;
+  padding: 13px 30px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 1rem;
+  text-transform: capitalize;
+  transition: 0.4s;
+}
+
+.but:hover {
+  background: #404040;
+}
+
+.but a {
+  text-decoration: none;
+  color: $white;
+}
+
+.howAppsWork__col_img {
+  display: none;
+}
+
+.howAppsWork__col_img-1,
+.howAppsWork__col_img-3{
+  text-indent: -800px;
+}

@@ -1,0 +1,78 @@
+.photo__img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.photo__img_1 {
+  background-image: url(#{$imagesPath}1-2.jpg);
+}
+
+.photo__img_2 {
+  background-image: url(#{$imagesPath}2-1.jpg);
+}
+
+.photo__img_3 {
+  background-image: url(#{$imagesPath}3-1.jpg);
+}
+
+.photo__img_4 {
+  background-image: url(#{$imagesPath}4-1.jpg);
+}
+
+.photo__img_5 {
+  background-image: url(#{$imagesPath}5-1.jpg);
+}
+
+.photo__img_6 {
+  background-image: url(#{$imagesPath}6-1.jpg);
+}
+
+.clientReviews__titleBox {
+  color: $black;
+  text-align: center;
+
+  &_p {
+    color: $grey;
+  }
+}
+
+.clientReviews__client {
+  color: $black;
+  max-width: 1140px;
+  margin: 0 auto 100px auto;
+
+  &_box {
+    width: auto;
+    padding: 15px;
+    line-height: 2rem;
+}
+
+  &_p {
+    color: $grey;
+    padding: 15px;
+    background: rgba(0,255,246,0.09);
+  }
+}
+
+
+
+.photo {
+  display: flex;
+  flex-direction: row;
+
+  &__img {
+    margin-right: 15px;
+  }
+  .photo__name_1 {
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+
+  .photo__name_2 {
+    color: $blue;
+    margin-top: 0;
+  }
+
+}

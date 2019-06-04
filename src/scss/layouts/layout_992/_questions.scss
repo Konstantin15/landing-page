@@ -1,0 +1,23 @@
+@media (min-width: 992px) {
+  .questions__info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+
+  .questions_item {
+    flex-basis: 0;
+    flex-grow: 1;
+    margin-right: 50px;
+  }
+
+  .questions__img {
+    display: inline-block;
+    margin-right: 25px;
+    height: 500px;
+  }
+
+
+
+}

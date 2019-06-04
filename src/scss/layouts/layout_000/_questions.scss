@@ -1,0 +1,63 @@
+.questions {
+  color: black;
+  margin-bottom: 30px;
+
+  .questions__titleBox {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+
+
+  .box__item {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+
+
+  .box__title {
+    background-color: lightgrey;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 20px;
+    position: relative;
+  }
+
+  .box__title:hover {
+    text-decoration: underline;
+  }
+
+  .box__content p {
+    padding: 10px;
+    line-height: 30px;
+    color: $grey;
+    margin: 0;
+  }
+
+}
+
+.box__arrow {
+  display: inline-block;
+  position: absolute;
+  height: 100%;
+  width: 60px;
+  right: 0;
+  top: 0;
+  background: #00a0ff url(#{$imagesPath}angle-up-solid.svg) no-repeat center;
+  background-size: 50%;
+  transform: rotate(180deg);
+}
+
+
+.box__arrow_open {
+  transform: rotate(360deg);
+}
+
+.questions__img {
+  display: none;
+}
+
+
+
+
